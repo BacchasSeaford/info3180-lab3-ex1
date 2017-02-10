@@ -10,8 +10,7 @@ from_name = 'Ricky'
 to_name = 'Seaford'
 subject = 'Lab three'
 msg =' This is where my life belong! '
-message_to_send = message.format(from_name, from_addr, to_name,
- to_addr, subject, msg)
+message_to_send = message.format(from_name, from_addr, to_name, to_addr, subject, msg)
 # Credentials (if needed)
 username = ''
 password = ''
